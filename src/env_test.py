@@ -1,4 +1,4 @@
-import rl_libs
+import libs
 
 import numpy
 
@@ -8,8 +8,8 @@ if __name__ == "__main__":
     force_envs = []
     force_envs.append("bp35")
     #force_envs.append("sc25")
-    envs = rl_libs.ARCEnvsWrapper(10, force_envs)
-  
+    envs = libs.ARCEnvsWrapper(10, force_envs)
+    
 
     # reset envs
     obs_all  = []
